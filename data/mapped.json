@@ -1,0 +1,310 @@
+{
+    "Tank 1": {
+        "P1": {
+            "Stack 1": "Reprisal",
+            "Pantrokrator": "Party Mit"
+        },
+        "P2": {
+            "611": "Party Mit"
+        },
+        "P3": {
+            "Hello World": "Reprisal",
+            "1st Patch Set": "Party Mit",
+            "4th Patch Set": "Reprisal"
+        },
+        "P4": {
+            "Protean 1": "Reprisal",
+            "Protean 2": "Party Mit"
+        },
+        "P5": {
+            "Delta Cast": "Reprisal",
+            "Sigma Cast": "Reprisal+Party Mit",
+            "Omega Cast": "Reprisal+Party Mit"
+        },
+        "P6": {
+            "Cosmo Memory": "Tank LB",
+            "Cosmo Dive 1": "Reprisal+Party Mit",
+            "Wave Cannon 2": "Reprisal+Party Mit",
+            "Cosmo Meteor": "Reprisal",
+            "Magic Number 1": "Tank LB"
+        }
+    },
+    "Tank 2": {
+        "P1": {
+            "Stack 3": "Reprisal",
+            "Pantrokrator": "Party Mit"
+        },
+        "P2": {
+            "611": "Party Mit"
+        },
+        "P3": {
+            "2nd Patch Set": "Reprisal",
+            "4th Patch Set": "Party Mit",
+            "Critical Error": "Reprisal"
+        },
+        "P4": {
+            "Stack 2": "Party Mit",
+            "Protean 3": "Reprisal"
+        },
+        "P5": {
+            "Sigma Cast": "Party Mit",
+            "Omega Cast": "Party Mit"
+        },
+        "P6": {
+            "Cosmo Memory": "Reprisal",
+            "Wave Cannon 1": "Reprisal+Party Mit",
+            "Cosmo Dive 2": "Reprisal",
+            "Cosmo Meteor": "Party Mit",
+            "Magic Number 2": "Tank LB"
+        }
+    },
+    "Scholar": {
+        "P1": {
+            "Stack 2": "Seraph",
+            "Stack 3": "Seraph",
+            "Pantrokrator": "Everything"
+        },
+        "P2": {
+            "611": "Everything"
+        },
+        "P3": {
+            "Hello World": "Soil",
+            "1st Patch Set": "Spread-Lo",
+            "2nd Patch Set": "Expedience/Seraph",
+            "3rd Patch Set": "Fey/Seraph",
+            "4th Patch Set": "Succor",
+            "Critical Error": "Soil"
+        },
+        "P4": {
+            "Protean 1": "Spread-Lo",
+            "Stack 1": "Seraph/Soil",
+            "Protean 2": "Expedience",
+            "Stack 2": "Seraph/Fey",
+            "Blue Screen": "Succor+Soil"
+        },
+        "P5": {
+            "Delta Cast": "Spread-Lo+Soil",
+            "Sigma Cast": "Fey+Seraph+Soil",
+            "Sigma Mech": "Expedience",
+            "Omega Cast": "Spread-Lo+Soil",
+            "Blind Faith": "Soil+Succor"
+        },
+        "P6": {
+            "Cosmo Memory": "Soil+Succor",
+            "Cosmo Dive 1": "Seraph+Expedience+Fey",
+            "Protean 1": "Soil+Succor",
+            "Wave Cannon 1": "Soil+Succor",
+            "Protean 2": "Spread-Lo",
+            "Wave Cannon 2": "Succor+Soil",
+            "Cosmo Dive 2": "Soil (PARTY) +Succor",
+            "Cosmo Meteor": "Seraph+Expedience+Fey",
+            "Flares": "Spread-Lo+Soil (Stack)",
+            "Magic Number 1": "Healer LB"
+        }
+    },
+    "Sage": {
+        "P1": {
+            "Pantrokrator": "Everything"
+        },
+        "P2": {
+            "611": "Everything"
+        },
+        "P3": {
+            "Hello World": "Eukprog",
+            "1st Patch Set": "Zoe+Eukprog+Kerachole",
+            "2nd Patch Set": "Panhaima",
+            "3rd Patch Set": "EukProg+Kerachole",
+            "4th Patch Set": "Holos",
+            "Critical Error": "Kerachole"
+        },
+        "P4": {
+            "Protean 1": "Zoe+Euk Prog",
+            "Stack 1": "Kerachole",
+            "Stack 2": "Panhaima",
+            "Blue Screen": "Euk Prog+Kera"
+        },
+        "P5": {
+            "Delta Cast": "Zoe EukProg+Kerachole+Holos",
+            "Sigma Cast": "Zoe EukProg+Kerachole",
+            "Omega Cast": "Zoe EukProg+Panhaima+Kerachole",
+            "Blind Faith": "Kerachole"
+        },
+        "P6": {
+            "Cosmo Memory": "EukProg+Kerachole",
+            "Cosmo Dive 1": "EukProg+Panhaima+Kerachole",
+            "Protean 1": "EukProg+Kerachole",
+            "Wave Cannon 1": "ZoeEukProg+Kerachole",
+            "Protean 2": "EukProg+Holos",
+            "Wave Cannon 2": "EukProg+Kerachole",
+            "Cosmo Dive 2": "EukProg+Kerachole",
+            "Cosmo Meteor": "ZoeEukProg+Panhaima",
+            "Flares": "EukProg+Kerachole",
+            "Magic Number 1": "Healer LB"
+        }
+    },
+    "White Mage": {
+        "P1": {
+            "Pantrokrator": "Everything"
+        },
+        "P2": {
+            "611": "Everything"
+        },
+        "P3": {
+            "2nd Patch Set": "Temperance",
+            "3rd Patch Set": "Bell"
+        },
+        "P4": {
+            "Protean 2": "Temperance"
+        },
+        "P5": {
+            "Delta Mech": "Bell",
+            "Sigma Cast": "Temperance",
+            "Omega Mech": "Bell"
+        },
+        "P6": {
+            "Cosmo Dive 1": "Temperance",
+            "Cosmo Meteor": "Temperance+Bell",
+            "Magic Number 2": "Healer LB"
+        }
+    },
+    "Astro": {
+        "P1": {
+            "Pantrokrator": "Everything"
+        },
+        "P2": {
+            "611": "Everything"
+        },
+        "P3": {
+            "Hello World": "CU",
+            "1st Patch Set": "Star\nPlace 2 GCDs after HW",
+            "2nd Patch Set": "Neutral Sect",
+            "3rd Patch Set": "Macrocosmos",
+            "4th Patch Set": "Star",
+            "Critical Error": "CU"
+        },
+        "P4": {
+            "Protean 2": "Neutral Sect",
+            "Blue Screen": "CU"
+        },
+        "P5": {
+            "Delta Mech": "Macrocosmos/Star",
+            "Sigma Cast": "Neutral Sect+CU",
+            "Sigma Mech": "Neutral Sect",
+            "Omega Cast": "CU",
+            "Blind Faith": "CU"
+        },
+        "P6": {
+            "Cosmo Memory": "CU",
+            "Cosmo Dive 1": "Neutral Sect\nPress late",
+            "Protean 1": "Neutral Sect",
+            "Wave Cannon 1": "CU",
+            "Wave Cannon 2": "Macrocosmos",
+            "Cosmo Dive 2": "CU",
+            "Cosmo Meteor": "Neutral Sect",
+            "Flares": "Neutral Sect",
+            "Magic Number 2": "Healer LB"
+        }
+    },
+    "Melee 1": {
+        "P1": {
+            "Stack 1": "Feint"
+        },
+        "P2": {},
+        "P3": {
+            "Hello World": "Feint",
+            "Critical Error": "Feint"
+        },
+        "P4": {
+            "Blue Screen": "Feint"
+        },
+        "P5": {
+            "Sigma Cast": "Feint"
+        },
+        "P6": {
+            "Cosmo Dive 1": "Feint",
+            "Cosmo Dive 2": "Feint"
+        }
+    },
+    "Melee 2": {
+        "P1": {
+            "Stack 3": "Feint"
+        },
+        "P2": {},
+        "P3": {
+            "3rd Patch Set": "Feint"
+        },
+        "P4": {},
+        "P5": {
+            "Delta Cast": "Feint",
+            "Omega Cast": "Feint"
+        },
+        "P6": {
+            "Cosmo Memory": "Feint",
+            "Wave Cannon 2": "Feint",
+            "Magic Number 2": "Feint"
+        }
+    },
+    "Phys Range": {
+        "P1": {
+            "Pantrokrator": "Party Mit"
+        },
+        "P2": {
+            "611": "Party Mit"
+        },
+        "P3": {
+            "3rd Patch Set": "Party Mit"
+        },
+        "P4": {},
+        "P5": {
+            "Delta Cast": "Party Mit",
+            "Sigma Cast": "Party Mit",
+            "Omega Cast": "Party Mit",
+            "Blind Faith": "Party Mit"
+        },
+        "P6": {
+            "Protean 1": "Party Mit",
+            "Wave Cannon 1": "Party Mit",
+            "Cosmo Meteor": "Party Mit"
+        }
+    },
+    "Caster": {
+        "P1": {
+            "Stack 3": "Addle"
+        },
+        "P2": {},
+        "P3": {
+            "Hello World": "Addle",
+            "Critical Error": "Addle"
+        },
+        "P4": {},
+        "P5": {
+            "Delta Cast": "Addle",
+            "Omega Cast": "Addle"
+        },
+        "P6": {
+            "Cosmo Dive 1": "Addle",
+            "Cosmo Dive 2": "Addle"
+        }
+    },
+    "Extras": {
+        "P1": {
+            "Stack 3": "Dismantle",
+            "Pantrokrator": "Barrier"
+        },
+        "P2": {
+            "611": "Barrier"
+        },
+        "P3": {
+            "3rd Patch Set": "Dismantle",
+            "4th Patch Set": "Barrier"
+        },
+        "P4": {},
+        "P5": {
+            "Delta Cast": "Dismantle+Barrier",
+            "Omega Cast": "Dismantle+Barrier"
+        },
+        "P6": {
+            "Wave Cannon 2": "Dismantle/Barrier"
+        }
+    }
+}
