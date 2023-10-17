@@ -53,8 +53,8 @@ const MacroTextArea = ({ value, split }: { value: string, split?: SplitTypes }) 
 
 const MIT_SHEET_MAP = {
   "": "",
-  "Breadmines": "/data/breadmines.json",
-  "Top MITty": "/data/mapped.json",
+  "Breadmines": "data/breadmines.json",
+  "Top MITty": "data/mapped.json",
 }
 
 type MitSheet = {
