@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mitigation-macro/static/css/main.eefc237f.css",
+    "main.js": "/mitigation-macro/static/js/main.338fad75.js",
+    "index.html": "/mitigation-macro/index.html",
+    "main.eefc237f.css.map": "/mitigation-macro/static/css/main.eefc237f.css.map",
+    "main.338fad75.js.map": "/mitigation-macro/static/js/main.338fad75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eefc237f.css",
+    "static/js/main.338fad75.js"
+  ]
+}
