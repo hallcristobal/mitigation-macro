@@ -1,0 +1,53 @@
+{
+    "Tank 1": {
+        "P6": {
+            "Cosmo Dive 1": "Reprisal+Shake",
+            "Wave cannon 2": "Reprisal+Shake",
+            "Cosmo Meteor": "Reprisal"
+        }
+    },
+    "Tank 2": {
+        "P6": {
+            "Memory": "Reprisal",
+            "Cannon 1": "Reprisal+Mit",
+            "Dive 2": "Reprisal",
+            "Meteor": "Mit"
+        }
+    },
+    "Scholar": {
+        "P6": {
+            "Memory": "Soil",
+            "Dive 1": "Succor+Soil+Seraph+Expedience+Illumination",
+            "Cannon 1": "Succor+Soil",
+            "Cannon 2": "Spreadlo+Soil",
+            "Dive 2": "Succor+Soil",
+            "Meteor": "Succor+Seraph+Expedience+Illumination",
+            "Stack/Flare": "Spreadlo+Soil"
+        }
+    },
+    "DPS 1": {
+        "P6": {
+            "Dive 1": "Feint",
+            "Dive 2": "Feint"
+        }
+    },
+    "DPS 2": {
+        "P6": {
+            "Memory": "Feint",
+            "Cannon 2": "Feint"
+        }
+    },
+    "DPS 3": {
+        "P6": {
+            "Cannon 1": "Mit",
+            "Cannon 2": "Dismantle (MCH)",
+            "Meteor": "Mit"
+        }
+    },
+    "DPS 4": {
+        "P6": {
+            "Dive 1": "Addle",
+            "Dive 2": "Addle"
+        }
+    }
+}

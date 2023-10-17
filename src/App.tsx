@@ -1,5 +1,4 @@
-import { useMemo, useState } from 'react'
-import mit from './data/mapped.json'
+import { useEffect, useMemo, useState } from 'react'
 import { Col, Container, Form, InputGroup } from 'react-bootstrap'
 
 type SplitTypes = "none" | "lines" | "phase"
@@ -52,18 +51,52 @@ const MacroTextArea = ({ value, split }: { value: string, split?: SplitTypes }) 
   return (box(value, lineCount))
 }
 
+const MIT_SHEET_MAP = {
+  "": "",
+  "Breadmines": "/data/breadmines.json",
+  "Top MITty": "/data/mapped.json",
+}
+
+type MitSheet = {
+  [Role: string]: {
+    [Phase: string]: {
+      [Mechanic: string]: string
+    }
+  }
+}
+
 function App() {
-  const roles = Object.keys(mit)
-  const [selectedRole, setSelectedRole] = useState<keyof typeof mit>('Tank 1')
+  const [mit, setMit] = useState<MitSheet>({});
+  const [roles, setRoles] = useState<string[]>([])
+  const [selectedMitSheet, setSelectedMitSheet] = useState<keyof typeof MIT_SHEET_MAP | undefined>()
+  const [selectedRole, setSelectedRole] = useState<string>("")
   const [unifiedMacro, setUnifiedMacro] = useState<boolean>(false)
   const [noSpaces, setNoSpaces] = useState<boolean>(false)
   const [splitSelection, setSplitSelection] = useState<SplitTypes>('none')
 
+  useEffect(() => {
+    if (selectedMitSheet === undefined) return
+
+    fetch(MIT_SHEET_MAP[selectedMitSheet], {
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    })
+      .then(res => res.json())
+      .then(json => {
+        setRoles(() => Object.keys(json))
+        setMit(json)
+        setSelectedRole(Object.keys(json).sort()[0])
+      })
+  }, [selectedMitSheet])
+
   const shown = useMemo(() => {
     return JSON.stringify(mit[selectedRole], null, 2)
-  }, [selectedRole])
+  }, [selectedRole, mit])
 
   const macro = useMemo(() => {
+    if (Object.keys(mit).length === 0) return "";
     const role_mit = mit[selectedRole] as Record<string, any>
     const mac = Object.keys(role_mit).map(phase => {
       const splitMitAndAnnotation = (text: string) => {
@@ -94,12 +127,19 @@ function App() {
       return r
     }).filter(x => !!x).join(unifiedMacro ? "" : noSpaces ? "\n" : "\n\n").trim()
     return mac
-  }, [selectedRole, unifiedMacro, noSpaces, splitSelection])
+  }, [selectedRole, unifiedMacro, noSpaces, splitSelection, mit])
 
   return (
     <Container>
       <Col xl>
-        <h1 className='mt-3'>Top MITty</h1>
+        <h1 className='mt-3'>{selectedMitSheet ?? "Select a Sheet:"}</h1>
+        <Col xl={4}>
+          <InputGroup className='mb-3'>
+            <Form.Select value={selectedMitSheet} onChange={(e) => setSelectedMitSheet(() => (e.target.value as any))}>
+              {Object.keys(MIT_SHEET_MAP).map((key, i) => <option key={`${key}_${i}`} value={key}>{key}</option>)}
+            </Form.Select>
+          </InputGroup>
+        </Col>
         <hr />
         <InputGroup className='mb-3'>
           <InputGroup.Text>Role:</InputGroup.Text>
